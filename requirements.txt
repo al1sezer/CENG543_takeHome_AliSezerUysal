@@ -1,0 +1,27 @@
+# CENG 467 - NLP Take Home Exam
+# Shared requirements for all questions
+# NOTE: PyTorch (CUDA) must be installed separately first:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+# HuggingFace
+transformers
+datasets
+tokenizers
+
+# Classical ML
+scikit-learn
+
+# NLP Preprocessing
+nltk
+
+# Utilities
+numpy
+pandas
+tqdm
+matplotlib
+
+# Q3 - Text Summarization
+evaluate
+rouge-score
+bert-score
+tabulate

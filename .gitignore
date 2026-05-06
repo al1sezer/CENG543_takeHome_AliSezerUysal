@@ -21,8 +21,8 @@ glove.6B.300d.txt
 # Output and Metrics (Keep repo clean)
 *.json
 *.png
-!requirements.txt
 *.txt
+!requirements.txt
 *.csv
 
 # LaTeX Auxiliary Files
