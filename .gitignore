@@ -1,0 +1,40 @@
+# User Requested: Ignore documentation
+*.md
+*.tex
+
+# Virtual Environment and Python Cache
+nlp/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Large Files (Must be ignored for GitHub)
+glove.6B.300d.txt
+*.pt
+*.pth
+*.bin
+
+# Output and Metrics (Keep repo clean)
+*.json
+*.png
+*.txt
+*.csv
+
+# LaTeX Auxiliary Files
+*.aux
+*.log
+*.out
+*.toc
+*.pdf
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# IDE Settings
+.vscode/
+.idea/
+.gemini/
